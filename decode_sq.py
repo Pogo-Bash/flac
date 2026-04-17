@@ -6,7 +6,7 @@ import numpy as np
 import soundfile as sf
 from scipy.signal import hilbert
 
-INPUT_PATH = "Sample_BeeMoved_96kHz24bit.flac"
+INPUT_PATH = "input.flac"
 OUTPUT_PATH = "decoded_quad.wav"
 
 BLOCK = 1 << 20          # 2^20 samples per block
