@@ -109,8 +109,8 @@ def main():
     else:
         print("  peak within 0 dBFS; preserving levels as-is")
 
-    print(f"Writing {OUTPUT_PATH} (24-bit PCM, 4 channels) ...")
-    sf.write(OUTPUT_PATH, quad, sr, subtype="PCM_24")
+    print(f"Writing {OUTPUT_PATH} (WAVEX, 24-bit PCM, 4 channels) ...")
+    sf.write(OUTPUT_PATH, quad, sr, subtype="PCM_24", format="WAVEX")
 
     print()
     channel_stats(quad, sr)

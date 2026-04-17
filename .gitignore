@@ -1,4 +1,6 @@
 __pycache__/
 *.pyc
 decoded_quad.wav
+decoded_quad.flac
+decoded_quad.flac.part*
 input.flac
